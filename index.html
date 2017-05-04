@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+  <script>
+
+var gunluk_gelir=Number(prompt('gunluk geliri daxil edin:'));
+var gun_sayi=Number(prompt('Gun sayini daxil edin:'));
+var brut_gelir=(gunluk_gelir*gun_sayi);
+ if(brut_gelir>=1000){
+var faiz=brut_gelir*0.18;
+}else{
+    brut_gelir*0.04
+}
+var net_gelir=brut_gelir-faiz
+console.log(faiz)
+console.log(net_gelir)
+
+
+  </script>
+</body>
+</html>
